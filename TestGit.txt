@@ -1,5 +1,10 @@
 git init
 git add .
 git commit -m "mô-tả-commit"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
 git remote add origin "https://URL"
 git push -u origin master
